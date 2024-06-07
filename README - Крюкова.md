@@ -50,234 +50,258 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-    </head>
-
-    <body style="background-color:rgb(255, 255, 255);">
-        <h1 class="heading">Hello world</h1>
-        <h2 class="heading">Hello world</h2>
-        <h3 class="heading">Hello world</h3>
-        <h4 class="heading">Hello world</h4>
-        <h5 class="heading">Hello world</h5>
-        <h6 class="heading">Hello world</h6>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <style>
+        h1, h2, h3 {
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin: 0; font-family: 'Calibri Light';">Это заголовок</h1>
+    <h3 style="margin-top: 0; font-family: 'Calibri Light';">Это заголовок</h3>
+    <h2><b>Это заголовок</b></h2>
+    <h2 style="font-family: 'Calibri Light'"><i>Это заголовок</i></h2>
+    <p style="font-size: 20px">Это <b>абзац</b></p>
+    <p style="font-size: 20px">Это ещё <i>абзац</i></p>
+    <h3>Это заголовок</h3>
+    <h1 style="font-family: 'Calibri Light'"><i>Это заголовок h1</i></h1>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "2.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-    </head>
-
-    <body style="background-color:rgb(255, 255, 255);">
-        <h1 id="heading-1" class="heading">Hello world</h1>
-        <h2 id="heading-2" class="heading">Hello world</h2>
-        <h3 id="heading-3" class="heading">Hello world</h3>
-        <h4 id="heading-4" class="heading">Hello world</h4>
-        <h5 id="heading-5" class="heading">Hello world</h5>
-        <h6 id="heading-6" class="heading">Hello world</h6>
-    </body>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h2, h3 {
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+<h2 style="font-family: 'Calibri Light'">Что такое CMS</h2>
+<p><b>CMS - </b>«система управления контентом» <b>(движок)</b> – написанная PHP-программистами основа для сайта, с помощью которой вы сможете управлять сайтом (добавлять контент, менять пункты меню и т.п.) не зная HTML и CSS.</p>
+<p>Однако, для того чтобы сделать сайт с помощью <b>CMS</b> <i>потребуются услуги</i> и программиста, и дизайнера, и верстальщика. И капиталовложения.</p>
+<h3 style="font-family: 'Calibri Light'"> Какие бывают cms</h3>
+<p>Бывают различные системы управления контентом: для интернет-магазинов, для блогов, для форумов и т.д.</p>
+<h3 style="font-family: 'Calibri Light'">Примеры cms</h3>
+<p><i>Примеры популярных CMS</i>: Joomla, WordPress (для блогов), PhpBB (для форумов).</p>
+<p><b>CMS-ки</b> бывают платные и бесплатные.</p>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "3.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лабораторная работа №3"</title>
-        <style>
-            .heading {
-                color: red;
-            }
-        </style>
-    </head>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h2, h4 {
+            font-weight: normal;
+            font-family: "Calibri Light";
+        }
+    </style>
+</head>
+<body>
+    <h2 style="margin-bottom: 0">Списки</h2>
+    <h4 style="margin-top: 0">Список цветов</h4>
+    <ul>
+        <li>Красный</li>
+        <li>Желтый</li>
+        <li>Зелёный</li>
+        <li>Синий</li>
+    </ul>
+    <h4 style="margin-top: 0">Список цветов</h4>
+    <ol>
+        <li>Иванов</li>
+        <li>Петров</li>
+        <li>Сидоров</li>
+        <li>Николаев</li>
+    </ol>
 
-    <body style="background-color:blueviolet;">
-        <h1 id="heading-1" class="heading">Hello world</h1>
-        <h2 id="heading-2" class="heading">Hello world</h2>
-        <h3 id="heading-3" class="heading">Hello world</h3>
-        <h4 id="heading-4" class="heading">Hello world</h4>
-        <h5 id="heading-5" class="heading">Hello world</h5>
-        <h6 id="heading-6" class="heading">Hello world</h6>
-    </body>
+    <h4 style="margin-top: 0">Список цветов</h4>
+    <ol>
+        <li>Иванов
+            <ul>
+                <li>Возраст - 23 года</li>
+                <li>Курс - 3</li>
+            </ul>
+        </li>
+        <li>Петров
+            <ul>
+                <li>Возраст - 19 лет</li>
+                <li>Курс - 2</li>
+            </ul>
+        </li>
+        <li>Сидоров
+            <ul>
+                <li>Возраст - 18 лет</li>
+                <li>Курс - 1</li>
+            </ul>
+        </li>
+    </ol>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "4.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-        <style>
-            .heading {
-                color: red;
-            }
-            #heading-2 {
-                color: blue;
-            }
-        </style>
-    </head>
-
-    <body style="background-color:rgb(255, 255, 255);">
-        <h1 id="heading-1" class="heading">Hello world</h1>
-        <h2 id="heading-2" class="heading">Hello world</h2>
-        <h3 id="heading-3" class="heading">Hello world</h3>
-        <h4 id="heading-4" class="heading">Hello world</h4>
-        <h5 id="heading-5" class="heading">Hello world</h5>
-        <h6 id="heading-6" class="heading">Hello world</h6>
-    </body>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h2, h4 {
+            font-weight: normal;
+            font-family: "Calibri Light";
+        }
+    </style>
+</head>
+<body>
+<h2>
+    <b>Что нужно знать, чтобы делать сайты</b>
+</h2>
+<ol>
+    <li><b>HTML</b></li>
+    <li><i>CSS</i></li>
+    <li>PHP</li>
+    <li>SQL</li>
+    <li>JavaScript</li>
+    <li>jQuery</li>
+    <li>Flash</li>
+    <li>SEO</li>
+</ol>
+<h4>PHP и JavaScript</h4>
+<p>Языки программирования <b>PHP</b> и <b>JavaScript</b> позволяют сделать сайт динамичным, то есть реагирующим на действия пользователя. Например, можно сделать красивую выпадающую менюшку или слайдер</p>
+<h4>Виды скриптов</h4>
+<p>Для этого пишутся скрипты (англ. <i>script</i> - «сценарий») - программы, позволяющиее реагировать на действия пользователя. Скрипты бывают двух видов:</p>
+<ul>
+    <li> те, которые выполняются на сервере, а результат их выполнения приходит в браузер к пользователю уже в готовом виде. Это скрипты, написанные на языке <b>PHP</b>. На нем пишуться <b>CMS-ки</b> – системы управления контентом.</li>
+    <li>те, которые выполняются прямо в браузере пользователя. Это скрипты, написанные на языке <b>JavaScript</b>. Они чаще всего используются для, того чтобы сделать страницу более удобной и красивой.</li>
+</ul>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "5.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-        <style>
-            .heading {
-                color: red;
-            }
-            #heading-2 {
-                color: blue;
-            }
-            #heading-3 {
-                background-color: black;
-                color: white;
-            }
-        </style>
-    </head>
-
-    <body style="background-color:rgb(255, 255, 255);">
-        <h1 id="heading-1" class="heading">Hello world</h1>
-        <h2 id="heading-2" class="heading">Hello world</h2>
-        <h3 id="heading-3" class="heading">Hello world</h3>
-        <h4 id="heading-4" class="heading">Hello world</h4>
-        <h5 id="heading-5" class="heading">Hello world</h5>
-        <h6 id="heading-6" class="heading">Hello world</h6>
-    </body>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body style="display: flex; flex-direction: column">
+<a href="1.html">Страница 1</a>
+<a href="2.html">Страница 2</a>
+<a href="3.html">Страница 3</a>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "6.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-        <style>
-            .heading {
-                color: red;
-            }
-            #heading-2 {
-                color: blue;
-            }
-            #heading-3 {
-                background-color: black;
-                color: white;
-            }
-            #heading-4 {
-                border: 2px solid black;
-                border-radius: 10px;
-            }
-        </style>
-    </head>
-
-    <body style="background-color:rgb(255, 255, 255);">
-        <h1 id="heading-1" class="heading">Hello world</h1>
-        <h2 id="heading-2" class="heading">Hello world</h2>
-        <h3 id="heading-3" class="heading">Hello world</h3>
-        <h4 id="heading-4" class="heading">Hello world</h4>
-        <h5 id="heading-5" class="heading">Hello world</h5>
-        <h6 id="heading-6" class="heading">Hello world</h6>
-    </body>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/мопс.png" alt="мопс">
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "7.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-        <style>
-            .heading {
-                color: red;
-            }
-            #heading-2 {
-                color: blue;
-            }
-            #heading-3 {
-                background-color: black;
-                color: white;
-            }
-            #heading-4 {
-                border: 2px solid black;
-                border-radius: 10px;
-            }
-            #heading-5:hover {
-                color: green;
-            }
-        </style>
-    </head>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            background-color: rgba(47, 169, 86, 0.608);
+        }
+    </style>
+</head>
+<body>
+<h1>Маникюр от Наташки</h1>
 
-    <body style="background-color:rgb(255, 255, 255);">
-        <h1 id="heading-1" class="heading">Hello world</h1>
-        <h2 id="heading-2" class="heading">Hello world</h2>
-        <h3 id="heading-3" class="heading">Hello world</h3>
-        <h4 id="heading-4" class="heading">Hello world</h4>
-        <h5 id="heading-5" class="heading">Hello world</h5>
-        <h6 id="heading-6" class="heading">Hello world</h6>
-    </body>
+<p>Как говорит Наташка: "Главное не качество, а сплетни".</p>
+
+<h2><i>Прайс</i></h2>
+
+<ul>
+    <li>Наращивание 584848575;</li>
+    <li>Покрытие 58494059;</li>
+    <li>Дизайн 845857584857585885588758585885758885;</li>
+</ul>
+
+<h3><i>Наташка</i></h3>
+
+<img src="img/Наташка.jpg" style="width: 600px">
+
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "8.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-    </head>
-
-    <body style="background-color:rgb(255, 255, 255);">
-        <input type="text" placeholder="Text">
-        <input type="password" placeholder="Password">
-        <input type="number" placeholder="Number">
-        <input type="email" placeholder="Email">
-        <input type="date" placeholder="Date">
-        <input type="checkbox" id="checkbox"> <label for="checkbox">Checkbox</label>
-    </body>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<video width="" height="300" autoplay loop controls >
+    <source src="resource/Смешной момент Дядюшка Ау Ну все придется мыться целиком.mp4" type="video/mp4">
+</video>
+</body>
 </html>
 ```
 
@@ -286,293 +310,810 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            background-color: #c315a629;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-    <body style="background-color:rgb(255, 255, 255);">
-        <ol>
-            <li>Нумерованный</li>
-            <li>Нумерованный</li>
-            <li>Нумерованный</li>
-            <li>Нумерованный</li>
-        </ol>
-    </body>
+        form {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.522);
+        }
+
+        .form_input{
+            width: 350px;
+            padding: 10px;
+            margin: 10px 0;      
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;         
+            font-family: Arial, sans-serif;
+        }
+
+        button{
+            background-color: #888888;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #50c655;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+            <p style="text-align: center; margin-bottom: 30px;">Оставьте свои контакты для обратной связи:<p>
+
+            <label for="name"><b>Имя:</b></label><br>
+            <input class="form_input" type="text" placeholder="Введите ваше имя"><br>
+                
+            <label for="name"><b>Email:</b></label><br>
+            <input class="form_input" type="email" placeholder="email@mail.ru"><br>
+        
+            <label for="message"><b>Сообщение:</b></label><br>
+            <textarea class="form_input" placeholder="Привет ..."></textarea><br>
+
+            <p style="text-align: center;"><button type="submit">Отправить</button></p>
+    </form>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "10.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-    </head>
-
-    <body style="background-color:rgb(255, 255, 255);">
-        <ul style="list-style-type: square;">
-            <li>Маркированный</li>
-            <li>Маркированный</li>
-            <li>Маркированный</li>
-            <li>Маркированный</li>
-        </ul>
-    </body>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/table.css">
+</head>
+<body>
+<table>
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Цена</th>
+            <th>Описание</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Сыр</td>
+            <td>100</td>
+            <td>Вкусный</td>
+        </tr>
+        <tr>
+            <td>Сигареты</td>
+            <td>200</td>
+            <td>Курить это плохо</td>
+        </tr>
+        <tr>
+            <td>Одногрппник</td>
+            <td>К сожелению не продается</td>
+            <td>Примат чистокровный</td>
+        </tr>
+        <tr>
+            <td>iPhone</td>
+            <td>почка</td>
+            <td>без комментариев</td>
+        </tr>
+       
+    </tbody>
+</table>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "11.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-        <style>
-            body {
-                background-color: green;
-                color: white;
-            }
-        </style>
-    </head>
-    <body>
-        <p>один, два, три, четыре, пять, шесть, семь, восемь, девять, десять.</p>
-        <p>одиннадцать, двенадцать, тринадцать, четырнадцать, пятнадцать, шестнадцать, семнадцать, восемнадцать, девятнадцать, двадцать.</p>
-        <p>двадцать один, двадцать два, двадцать три, двадцать четыре, двадцать пять, двадцать шесть, двадцать семь, двадцать восемь, двадцать девять, тридцать.</p>
-    </body>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=616ea07a-52a9-4824-89ac-119114817d03&lang=ru_RU" type="text/javascript"></script>
+    <style>
+        #map {
+        height: 500px;
+        width: 100%;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Интерактивная карта Яндекс</h2>
+    <div id="map"></div>
+
+    <script type="text/javascript">
+      ymaps.ready(init);
+  
+      function init() {
+        var myMap = new ymaps.Map("map", {
+          center: [47.044412,142.706990],
+          zoom: 12
+        });
+  
+        var myPlacemark = new ymaps.Placemark([47.044412,142.706990], {
+          hintContent: 'Новая - Деревня',
+          balloonContent: 'Это Мой домик'
+        });
+  
+        myMap.geoObjects.add(myPlacemark);
+      }
+    </script>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "12.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <style>
-      .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
-      .block {
-        width: 100px;
-        height: 100px;
-        background-color: green;
-        margin: 10px;
-      }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .baza_knopka {
+            display: flex;
+        }
+        .baza_knopka, .spisok {
+            list-style: none;
+        }
+        .knopka {
+            cursor: pointer;
+            background-color: #adadad;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .spisok {
+            display: none;
+            background-color: rgb(228, 228, 228);
+            padding: 1px;
+            color: black;
+            border-radius: 15px;
+            width: 110px;
+        }
+        .punkt {
+            padding: 15px;
+        }
+        .spisok_more {
+            position: relative;
+        }
+        .spisok_more:hover .spisok {
+            display: block;
+            position: absolute;
+            top: 50px;
+            left: 0;
+        }
+        .knopka:hover{
+            background-color: rgba(107, 107, 107, 0.91);
+            color: white;    
+        }
+        .punkt:hover {
+            background-color: rgba(107, 107, 107, 0.91);
+            color: white;
+            border-radius: 15px;
+        }
     </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="block">1</div>
-      <div class="block">2</div>
-      <div class="block">3</div>
-      <div class="block">4</div>
-      <div class="block">5</div>
-      <div class="block">6</div>
-    </div>
-  </body>
+</head>
+<body>
+    <ul class="baza_knopka">
+        <li class="knopka spisok_more"><b>Меню</b>
+            <ul class="spisok">
+                <li class="punkt">Пункт №1</li>
+                <li class="punkt">Пункт №2</li>
+                <li class="punkt">Пункт №3</li>
+            </ul>
+        </li>
+    </ul>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "13.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
-      .block {
-        width: 100px;
-        height: 100px;
-        background-color: green;
-        margin: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="block">1</div>
-      <div class="block">2</div>
-      <div class="block">3</div>
-      <div class="block">4</div>
-      <div class="block">5</div>
-      <div class="block">6</div>
-    </div>
-  </body>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<audio controls>
+    <source src="resource/Grigorijj_Leps_-_Ukhodi_krasivo_48202916.mp3">
+</audio>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "14.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-  </head>
-  <body>
-    <iframe width="800" height="600" src="https://porodysobak.ru/wp-content/uploads/2022/07/mops-3.jpg" frameborder="0" allowfullscreen></iframe>
-  </body>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            text-align: center;
+        }
+
+        .all_photos {
+            display: inline-block;
+        }
+
+        .all_photos img {
+            width: 250px;
+            height: 250px;
+        }
+
+        .watching {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(11, 11, 11, 0.76);
+            z-index: 999;
+        }
+
+        .watching_open {
+            display: block;
+        }
+
+        .watching__custom__1 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .watching__custom__2 {
+            width: 50%;
+            height: 50%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .gallery__item {
+            display: none;
+            flex-shrink: 0;
+            flex-grow: 1;
+            flex-basis: 100%;
+            max-width: 100%;
+            color: white;
+            width: 250px;
+            border-radius: 10px;
+            height: 100%;
+        }
+
+        .gallery__item img {
+            width: 100%;
+            height: 100%;
+            transform-origin: center;
+            object-fit: cover;
+        }
+
+        .gallery__btn {
+            position: absolute;
+            width: 50px;
+            height: 75px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 99999;
+            cursor: pointer;
+
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 700;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .gallery__btn_next {
+            right: 5px;
+        }
+
+        .gallery__btn_prev {
+            left: 5px;
+        }
+
+        .gallery__btn_close {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            height: 50px;
+            transform: none;
+        }
+
+        .gallery__btn_hidden {
+            display: none;
+        }
+        
+        .gallery__item_active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<p></p>
+
+<div class="gallery-content" id="galleryContent">
+    <div class="all_photos" data-src="resource/1.jpg">
+        <img src="resource/1.jpg" alt="">
+    </div>
+    <div class="all_photos" data-src="resource/2.jpg">
+        <img src="resource/2.jpg" alt="">
+    </div>
+    <div class="all_photos" data-src="resource/3.jpg">
+        <img src="resource/3.jpg" alt="">
+    </div>
+    <div class="all_photos" data-src="resource/4.jpg">
+        <img src="resource/4.jpg" alt="">
+    </div>
+</div>
+
+<div class="watching" id="galleryId">
+    <div class="watching__custom__1">
+        <div class="watching__custom__2">
+
+        </div>
+        <div class="gallery__btn gallery__btn_prev"><</div>
+        <div class="gallery__btn gallery__btn_next"> ></div>
+        <div class="gallery__btn gallery__btn_close">x</div>
+    </div>
+</div>
+
+<script>
+    let config = {
+        contentId: 'galleryContent',
+        galleryId: 'galleryId',
+        btnNextClass: 'gallery__btn_next',
+        btnPrevClass: 'gallery__btn_prev',
+        btnCloseClass: 'gallery__btn_close',
+        galleryContainer: 'watching__custom__2'
+    }
+
+    class Gallery {
+        constructor(config) {
+            this.content = document.getElementById(config.contentId).children;
+            this.contentBlock = document.getElementById(config.contentId);
+            this.index = 0;
+            this.width = 0;
+            this.imgZoom = '';
+            this.gallery = document.getElementById(config.galleryId);
+            this.gallerySlides = document.getElementsByClassName(config.galleryContainer)[0];
+            this.btnPrev = document.getElementsByClassName(config.btnPrevClass)[0];
+            this.btnNext = document.getElementsByClassName(config.btnNextClass)[0];
+            this.btnClose = document.getElementsByClassName(config.btnCloseClass)[0];
+            this.contentBlock.onclick = this.open.bind(this);
+            this.gallerySlides.onmousemove = this.zoom.bind(this);
+            this.gallerySlides.onmouseleave = this.unZoom.bind(this);
+            this.btnClose.addEventListener('click', this.close.bind(this));
+            this.btnPrev.addEventListener('click', this.prev.bind(this));
+            this.btnNext.addEventListener('click', this.next.bind(this));
+            for (let i = 0; i < this.content.length; i++) {
+                this.gallerySlides.append(this.getTemplate(this.content[i].dataset.src));
+                this.content[i].children[0].setAttribute('data-galleryid', i.toString());
+            }
+            this.gallerySlides = document.getElementsByClassName(config.galleryContainer)[0];
+        }
+
+        getTemplate(src) {
+            let div = document.createElement('div');
+            div.className = 'gallery__item';
+            div.innerHTML = `<img src="${src}">`;
+            return div;
+        }
+
+        open(event) {
+            this.index = Number(event.target.dataset.galleryid);
+            this.show(this.index);
+            this.gallery.className = this.gallery.className.replace('', ' watching_open ');
+        }
+
+        close() {
+            this.gallery.className = this.gallery.className.replace(' watching_open ', '');
+        }
+
+        show (index) {
+            if (index > this.gallerySlides.children.length - 1) {
+                this.index = 0;
+                this.width = 0;
+            }
+
+            if (index < 0) {
+                this.index = this.gallerySlides.children.length - 1
+            }
+
+            let i = 0;
+            for (i; i < this.gallerySlides.children.length; i++) {
+                this.gallerySlides.children[i].className = this.gallerySlides.children[i].className.replace(' gallery__item_active ', '');
+            }
+
+            this.gallerySlides.children[this.index].className = this.gallerySlides.children[this.index].className.replace('', ' gallery__item_active ');
+        }
+
+        next () {
+            this.show(this.index += 1);
+            this.width += this.gallerySlides.children[this.index].offsetWidth;
+        }
+
+        prev () {
+            this.show(this.index -= 1);
+            this.width -= this.gallerySlides.children[this.index].offsetWidth;
+        }
+
+        zoom (event) {
+            const x = event.clientX - event.target.offsetLeft - 10;
+            const y = event.clientY - event.target.offsetTop - 10;
+
+            if (event.target.tagName === 'IMG') {
+                this.imgZoom = event.target;
+                event.target.style.transformOrigin = `${x}px ${y}px`;
+                event.target.style.transform = 'scale(2)';
+            }
+        }
+
+        unZoom () {
+            this.imgZoom.style.transformOrigin = 'center';
+            this.imgZoom.style.transform = 'scale(1)';
+        }
+    }
+
+    gallery = new Gallery(config);
+</script>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "15.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      form {
-        background-color: #ffffff;
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      }
-      input[type="text"],
-      input[type="email"],
-      input[type="password"],
-      button {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-        box-sizing: border-box;
-        font-size: 16px;
-      }
-      button {
-        background-color: #007bff;
-        color: #fff;
-        cursor: pointer;
-      }
-      button:hover {
-        background-color: #0056b3;
-      }
+        .form-ad {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 15px;
+            margin: 15px;
+            border: 1px solid rgb(210, 210, 210);
+            border-radius: 10px;
+            max-height: 150px;
+        }
+        .form-ad__container_grid {
+            display: grid;
+            grid-template-columns: 1fr 5fr 2fr 1fr;
+            grid-gap: 20px;
+        }
+        .form-ad__container_flex {
+            display: flex;
+            gap: 20px
+        }
+        .form-ad__container_flex_vertical {
+            flex-direction: column;
+        }
+        .form-ad__ad-image {
+            width: 100%;
+            height: 100%;
+        }
+        .form-ad__ad-image>img {
+            min-width: 100px;
+            max-height: 140px;
+            width: 100%;
+        }
+        .form-ad__quantity-input {
+            box-sizing: border-box;
+            width: 100%;
+            border: 1px solid rgb(210, 210, 210);
+            border-radius: 10px;
+            height: 30px;
+            padding: 2px 10px 2px 10px;
+        }
+        .form-ad__title {
+            font-size: 20px;
+        }
+        .btn {
+            border-radius: 15px;;
+            border-width: 0px;
+            cursor: pointer;
+            padding: 5px;
+            font-size: 15px;
+            line-height: 1.5;
+            background-color: rgb(150, 150, 150);
+            color: white
+        }
+        .btn:hover {
+            background-color: rgb(45, 180, 88);
+        }
     </style>
-  </head>
-  <body>
-    <form>
-      <input type="text" name="username" placeholder="Username" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="password" name="password" placeholder="Password" required>
-      <button type="submit">Sing up</button>
-    </form>
-  </body>
+</head>
+<body>
+<form class="form-ad" action="">
+    <div class="form-ad__container_grid">
+        <div class="form-ad__ad-image">
+            <img src="img/iPhone.png">
+        </div>
+        <div class="form-ad__container_flex form-ad__container_flex_vertical">
+            <div class="form-ad__title">Apple iPhone 15 Pro 1 TB</div>
+            <div class="form-ad__description">
+                Color - Black Titanium<br>
+                6.1-inch display<br>
+            </div>
+        </div>
+        <div class="form-ad__price">1499 </div>
+        <div class="form-ad__container_flex form-ad__container_flex_vertical">
+            <div class="form-ad__quantity">
+                <label>
+                    <input class="form-ad__quantity-input" type="number" name="quantity" value="1">
+                </label>
+            </div>
+            <button class="btn" onclick="alert('Successfully!')">Buy</button>
+        </div>
+    </div>
+</form>
+
+<script>
+const quantity = document.getElementsByClassName('form-ad__quantity');
+let price = [];
+for (let i = 0; i < quantity.length; i++) {
+    quantity[i].addEventListener('change', (e) => {
+        let card = e.target.parentNode.parentNode.parentNode.parentNode;
+
+        if (price[i] === undefined) {
+            price[i] = Number(card.children[2].textContent);
+        }
+
+        card.children[2].textContent = price[i] * Number(e.target.value);
+    })
+}
+</script>
+</body>
 </html>
 ```
 
 <h2 align = "center">Задание "16.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-            }
-            table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-            th, td {
-                border: 1px solid #ccc;
-                padding: 8px;
-                text-align: center;
-            }
-            th {
-                background-color: #f2f2f2;
-            }
-        </style>
-    </head>
-    <body>
-        <table>
-            <thead>
-                <tr>
-                    <th>Имя</th>
-                    <th>Дата рождения</th>
-                    <th>Город</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Макс</td>
-                    <td>12.07.2004</td>
-                    <td>Южно-Сахалинск</td>
-                </tr>
-                <tr>
-                    <td>Диана</td>
-                    <td>28.10.2004</td>
-                    <td>Южно-Сахалинск</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qdDVtFvJwUc?si=lxXdACJE8oKOZQuD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </html>
 ```
 
 <h2 align = "center">Задание "17.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-        <style>
-            h1 {
-                color: red;
-            }
-        </style>
-    </head>
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <style>
+        .slider {
+            max-width: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+        .slider_form {
+            overflow: hidden;
+        }
+        .slider_photo {
+            display: flex;
+            will-change: transform;
+            transition: transform 0.5s cubic-bezier(0.7, -0.22, 1, -0.24);
+        }
 
-    <body style="background-color:rgb(255, 255, 255);">
-        <h1>Hello world!</h1>
-    </body>
+        .slider_item {
+            flex-shrink: 0;
+            flex-grow: 1;
+            flex-basis: 100%;
+            max-width: 100%;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            width: 250px;
+            border-radius: 10px;
+            background: #ffffff;
+        }
+        .slider_item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .slider_btn {
+            position: absolute;
+            top: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.3);
+            color: black;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+        .slider_btn_prev {
+            left: 0;
+        }
+        .slider_btn_next {
+            right: 0;
+        }
+        .slider_btn_hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="slider" style="width: 500px">
+    <div class="slider_form">
+        <div class="slider_photo" id="slider">
+            <div class="slider_item">
+                <img src="resource/1.jpg" alt="бибизяна 1">
+            </div>
+            <div class="slider_item">
+                <img src="resource/2.jpg" alt="бибизяна 2">
+            </div>
+            <div class="slider_item">
+                <img src="resource/3.jpg" alt="бибизяна 3">
+            </div>
+        </div>
+    </div>
+    <button class="slider_btn slider_btn_prev"> <</button>
+    <button class="slider_btn slider_btn_next"> ></button>
+</div>
+
+<script>
+    class Slider {
+        constructor(nameSliderItems, btnPrev, btnNext, idSlider) {
+            this.slides = document.getElementsByClassName(nameSliderItems);
+            this.index = 0;
+            this.width = 0;
+            this.widthAll = 0;
+            this.slider = document.getElementById(idSlider);
+            this.btnPrev = document.getElementsByClassName(btnPrev)[0];
+            this.btnNext = document.getElementsByClassName(btnNext)[0];
+            this.btnPrev.addEventListener('click', this.prev.bind(this));
+            this.btnNext.addEventListener('click', this.next.bind(this));
+            for (let i = 0; i < this.slides.length; i++) {
+                this.widthAll += this.slides[i].offsetWidth;
+            }
+
+            this.changeBtn();
+        }
+        show (index) {
+            if (index > this.slides.length - 1) {
+                console.log(index )
+                this.index = 1;
+                this.width = 0;
+            }
+
+            if (index < 1) {
+                this.index = this.slides.length - 1
+            }
+
+            let i = 0;
+            for (i; i < this.slides.length; i++) {
+                this.slides[i].className = this.slides[i].className.replace(' slider_item_active ', '');
+            }
+
+            this.slides[this.index].className = this.slides[this.index].className.replace('', ' slider_item_active ');
+        }
+
+        next () {
+            this.show(this.index += 1);
+            this.width += this.slides[this.index].offsetWidth;
+            this.changePosition()
+        }
+
+        prev () {
+            this.show(this.index -= 1);
+            this.width -= this.slides[this.index].offsetWidth;
+            this.changePosition()
+        }
+
+        changeBtn () {
+            if (this.width + this.slides[this.index].offsetWidth >= this.widthAll) {
+                this.btnNext.className =  this.btnNext.className.replace('', ' slider_btn_hidden ');
+            } else {
+                this.btnNext.className =  this.btnNext.className.replace(' slider_btn_hidden ', '');
+            }
+
+            if (this.width === 0) {
+                this.btnPrev.className =  this.btnPrev.className.replace('', ' slider_btn_hidden ');
+            } else {
+                this.btnPrev.className =  this.btnPrev.className.replace(' slider_btn_hidden ', '');
+            }
+        }
+
+        changePosition () {
+            this.changeBtn();
+            this.slider.setAttribute('style', `transform: translate3d(${-this.width}px, 0px, 0px)`);
+        }
+     }
+
+    let slider = new Slider('slider_item', 'slider_btn_prev', 'slider_btn_next', 'slider');
+    slider.show(0);
+</script>
+</body>
 </html>
 ```
 
@@ -581,60 +1122,279 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width, initial-scale=1.0">
-        <title>"Лаба №3"</title>
-        <style>
-            p {
-                font-family: Arial, sans-serif;
-            }
-        </style>
-    </head>
-
-    <body style="background-color:rgb(255, 255, 255);">
-        <p>Вебы топ :D</p>
-        <p>Это лабораторная работа №3 :D</p>
-    </body>
-</html>
-```
-
-<h2 align = "center">Задание "19.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
+    <title>Document</title>
     <style>
         body {
+            background-color: #f4f4f4;
             font-family: Arial, sans-serif;
             
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            
-            background-color: #aeaeae;
         }
-        .container {
-            width: 300px;
-            height: 150px;
-            background-color: rgb(255, 255, 255);
-            border-radius: 20px;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+        form {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .form_input{
+            width: 350px;
             padding: 10px;
-            text-align: center;
+            margin: 10px 0;         /*расстояние между текстом и боксом*/
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;         /*расстояние между полями*/
+            font-family: Arial, sans-serif;
         }
+
+        button{
+            background-color: #888888;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #50c655;
+        }
+
+        .form_error {
+            color:  #ea3e3e;
+            border: 1px solid  #ea3e3e;;
+        }
+
+        .error_text {
+            text-align: center;
+            border-radius: 10px;
+            background-color: #ea3e3e;
+            color: white;
+            padding: 0.37rem 0.75rem 0.37rem 0.75rem;
+            line-height: 1.5;
+        }
+    
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Веб-страница с блоком</h1>
-        <p>Блок div имеет тень</p>
+    <form action="" id="myForm">
+            <p id="errorMessage" class="error_text" style="display: none">Пожалуйста, заполните все поля корректно!</p>
+
+            <p style="text-align: center; margin-bottom: 30px;">Оставьте свои контакты для обратной связи:<p>
+
+            <label for="name"><b>Имя:</b></label><br>
+            <input class="form_input" type="text" id="name" name="name" placeholder="Введите ваше имя"><br>
+                
+            <label for="name"><b>Email:</b></label><br>
+            <input class="form_input" type="email" id="email" name="email" placeholder="email@mail.ru"><br>
+        
+            <label for="password"><b>Пароль:</b></label><br>
+            <input class="form_input" type="password" id="password" name="password"><br>
+
+            <p style="text-align: center;"><button type="submit">Отправить</button></p>
+    </form>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            if (!validateForm()) {
+                event.preventDefault(); // Отмена отправки формы, если данные не прошли валидацию
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        });
+    
+        function validateForm() {
+            let nameInput = document.getElementById('name');
+            let emailInput = document.getElementById('email');
+            let passwordInput = document.getElementById('password');
+    
+            let name = nameInput.value.trim();
+            let email = emailInput.value.trim();
+            let password = passwordInput.value.trim();
+    
+            let isValid = true;
+            
+            if (name === '') {
+                nameInput.classList.add('form_error');
+                isValid = false;
+            } else {
+                nameInput.classList.remove('form_error');
+            }
+            
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!email.match(emailPattern)) {
+                emailInput.classList.add('form_error');
+                isValid = false;
+            } else {
+                emailInput.classList.remove('form_error');
+            }
+            
+            if (password.length < 5) {
+                passwordInput.classList.add('form_error');
+                isValid = false;
+            } else {
+                passwordInput.classList.remove('form_error');
+            }
+    
+            return isValid;
+        }
+    </script>
+    
+</body>
+</html>
+```
+
+<h2 align = "center">Задание "19.html"</h2>
+
+```html
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .bar_menu {
+        display: flex;
+        align-items: center;
+        min-height: 50px;
+        background-color: #c6c6c6;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 15px;
+    }
+
+    .burger {
+        display: flex;
+        position: relative;
+        z-index: 100;
+        align-items: center;
+        width: 30px;
+        height: 20px;
+    }
+
+    .burger middle {
+        height: 2px;
+        width: 100%;
+        transform:scale(1);
+        background-color: white;
+    }
+
+    .burger::before, .burger::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: white;
+        transition: all 0.3s ease 0s;
+    }
+
+    .burger::before {
+        top: 0;
+    }
+
+    .burger::after {
+        bottom: 0;
+    }
+
+    .burger.active middle {
+        transform: scale(0);
+    }
+
+    .burger.active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0, -50%);
+    }
+
+    .burger.active::after {
+        top: 50%;
+        transform: rotate(45deg) translate(0, 50%);
+    }
+
+    /* Стили для мобильного меню */
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: black;
+        animation: burgerAnim 0.4s;
+        overflow-x: hidden;
+    }
+    .mobile-menu>ul>li>a {
+        color: #dddddd;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    .mobile-menu>ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-menu>ul>li {
+        padding: 10px;
+    }
+    .mobile-menu {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .mobile-menu ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    @keyframes burgerAnim {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .burger.active {
+        display: flex;
+    }
+    .mobile-menu.open {
+        display: flex;
+    }
+</style>
+<body style="font-family: Arial, Helvetica, sans-serif; font-style: italic;">
+<div class="bar_menu">
+    <div class="burger">
+        <middle></middle>
     </div>
+    <nav id="mobileMenu" class="mobile-menu">
+        <ul>
+            <li><a href="#">Факультеты</a></li>
+            <li><a href="#">Кафедры</a></li>
+            <li><a href="#">Специальности</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    document.querySelector('.burger').addEventListener('click', function() {
+        this.classList.toggle('active');
+        document.querySelector('.mobile-menu').classList.toggle('open')
+    });
+</script>
 </body>
 </html>
 ```
@@ -642,39 +1402,41 @@
 <h2 align = "center">Задание "20.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            
-            background-color: #f0f0f0;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            width: 300px;
-            height: 150px;
-            background-color: rgb(255, 255, 255);
-            border-radius: 20px;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Веб-страница с блоком</h1>
-        <p>Блок div имеет тень</p>
-    </div>
+<canvas id="myCanvas" width="500" height="200"></canvas>
+<script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+
+    // линия
+    context.beginPath();
+    context.moveTo(50, 50);
+    context.lineTo(150, 150);
+    context.strokeStyle = '#f608ff';
+    context.lineWidth = 3;
+    context.stroke();
+    
+    // прямоугольник
+    context.beginPath();
+    context.fillStyle = '#f0f070';
+    context.fillRect(180, 50, 100, 100);
+
+    // круг
+    context.beginPath();
+    context.arc(355, 100, 50, 0, 2 * Math.PI);
+    context.fillStyle = '#00f0f7';
+    context.fill();
+   
+</script>
 </body>
 </html>
 ```
@@ -682,30 +1444,43 @@
 <h2 align = "center">Задание "21.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-        }
-        h1 {
-            color: rgb(0, 0, 0);
-            animation: blink 1s infinite;
-        }
-        @keyframes blink {
-            0% {color: black;}
-            50% {color: red;}
-            100% {color: black;}
-        }
-    </style>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Пример анимации, которая мигает</h1>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    .items {
+        vertical-align: middle;
+        padding: 10px;
+    }
+    .items a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+</style>
+<body style="display: flex; flex-direction: column; font-size: 50px">
+<div class="items">
+    <i class="fa-brands fa-telegram" ></i> Telegram 
+    <a href="https://t.me/Rororolton"></a>
+</div>
+<div class="items">
+    <i class="fa-brands fa-vk" style="color: blue"></i> VK
+    <a href="https://vk.com/rororolton"></a>
+</div>
 </body>
 </html>
 ```
@@ -718,34 +1493,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
+    <title>Document</title>
     <style>
         body {
+            background-color: #f4f4f4;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
+            
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
-        .container {
-            width: 300px;
-            height: 200px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
 
-            padding: 100px;
+        form {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
+
+        .form_input{
+            width: 250px;
+            padding: 10px;
+            margin: 10px 0;         /*расстояние между текстом и боксом*/
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;         /*расстояние между полями*/
+            font-family: Arial, sans-serif;
+        }
+
+        button{
+            background-color: #888888;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #50c655;
+        }
+
+        .form_error {
+            color:  #ea3e3e;
+            border: 1px solid  #ea3e3e;
+        }
+
+        .error_text {
+            width: 250px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #ea3e3e;
+            color: white;
+            padding: 0.37rem 0.75rem 0.37rem 0.75rem;
+            line-height: 1.5;
+        }
+    
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Это пример блока с отступами</h1>
-    </div>
+    <form action="" id="myForm">
+            <p id="errorMessage" class="error_text" style="display: none">Пожалуйста, заполните все поля корректно!</p>
+
+            <p style="text-align: center; margin-bottom: 30px; font-size: 20px;"><b>РЕГИСТРАЦИЯ</b><p>
+
+            <label for="name"><b>Имя:</b></label><br>
+            <input class="form_input" type="text" id="name" name="name" placeholder="Введите ваше имя"><br>
+                
+            <label for="name"><b>Email:</b></label><br>
+            <input class="form_input" type="email" id="email" name="email" placeholder="email@mail.ru"><br>
+        
+            <label for="password1"><b>Пароль:</b></label><br>
+            <input class="form_input" type="password" id="password1" name="password1"><br>
+
+            <label for="password2"><b>Повторите пароль</b></label><br>
+            <input class="form_input" type="password" id="password2" name="password2"><br>
+
+            <p style="text-align: center;"><button type="submit">Отправить</button></p>
+    </form>
+
+    <script>
+        let message = '';
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            if (!validateForm()) {
+                event.preventDefault(); // Отмена отправки формы, если данные не прошли валидацию
+                document.getElementById('errorMessage').style.display = 'block';
+                document.getElementById('errorMessage').textContent = message;
+            }
+        });
+    
+        function validateForm() {
+            let nameInput = document.getElementById('name');
+            let emailInput = document.getElementById('email');
+            let passwordInput = document.getElementById('password1');
+            let password2Input = document.getElementById('password2');
+    
+            let name = nameInput.value.trim();
+            let email = emailInput.value.trim();
+            let password = passwordInput.value.trim();
+            let password2 = password2Input.value.trim();
+    
+            if (name === '') {
+                nameInput.classList.add('form_error');
+                message = 'Имя не указано!';
+                return false;
+            } else {
+                nameInput.classList.remove('form_error');
+            }
+    
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!email.match(emailPattern)) {
+                message = 'Неверный формат email!';
+                emailInput.classList.add('form_error');
+                return false;
+            } else {
+                emailInput.classList.remove('form_error');
+            }
+    
+            if (!checkPassword(password)) {
+                passwordInput.classList.add('form_error');
+                message = 'Пароль должен иметь минимум 5 символов. Необходимо использовать символы .?#%, а также строчные и заглавные буквы!';
+                return false;
+            } else {
+                passwordInput.classList.remove('form_error');
+            }
+    
+            if (password !== password2) {
+                passwordInput.classList.add('form_error');
+                password2Input.classList.add('form_error');
+                message = 'Пароли не совпадают!';
+                return false;
+            } else {
+                passwordInput.classList.remove('form_error');
+                password2Input.classList.remove('form_error');
+            }
+    
+            return true;
+        }
+    
+        function checkPassword(password) {
+            if (password.length < 5) {
+                return false;
+            }
+    
+            if (!/[.?#%]/.test(password)) {
+                return false;
+            }
+    
+            if (!/[a-z]/.test(password) || !/[A-Z]/.test(password)) {
+                return false;
+            }
+    
+            return true;
+        }
+    </script>
+
 </body>
 </html>
 ```
@@ -754,29 +1657,145 @@
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/table.css">
+</head>
+<head>
+    <title>Табличное представление данных</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
         }
 
-        a {
-            color: #000000;
-            text-decoration: none;
-            transition: color 0.3s;
+        th, td {
+            border: 1.5px solid #ddd;
+            padding: 10px;
+            text-align: left;
         }
-        a:hover {
-            color: #ff0000;
+
+        th {
+            cursor: pointer;
+        }
+
+        .form_input{
+            width: 490px;
+            padding: 10px;
+            margin: 10px 0;         /*расстояние между текстом и боксом*/
+            border: 1.5px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;         /*расстояние между полями*/
+            font-family: Arial, sans-serif;
         }
     </style>
 </head>
 <body>
-    <a href="#">Это пример ссылки.</a>
+<div style="display:flex; flex-direction:column; justify-content: center; align-items: center; text-align: center;">
+    <div style="width: 70%">
+        <h1><i>Сортировка</i></h1>
+        
+        <label>
+            <input type="text" id="filterInput" class="form_input" placeholder="Фильтр">
+        </label>
+
+        <table id="dataTable">
+            <thead>
+            <tr>
+                <th onclick="sortTable(0)">Имя</th>
+                <th onclick="sortTable(1)">Возраст</th>
+                <th onclick="sortTable(2)">Специальность</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Макс</td>
+                <td>19</td>
+                <td>Примат</td>
+            </tr>
+            <tr>
+                <td>Диана</td>
+                <td>19</td>
+                <td>Примат</td>
+            </tr>
+            <tr>
+                <td>Андрей</td>
+                <td>22</td>
+                <td>Электроэнергетик</td>
+            </tr>
+            <tr>
+                <td>Андрей</td>
+                <td>20</td>
+                <td>Примат</td>
+            </tr>
+            <tr>
+                <td>Влад</td>
+                <td>19</td>
+                <td>Электроэнергетик</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    function sortTable(columnIndex) {
+        let table, rows, switching, i, x, y, shouldSwitch;
+        table = document.getElementById("dataTable");
+        switching = true;
+
+        while (switching) {
+            switching = false;
+            rows = table.getElementsByTagName("tr");
+
+            for (i = 1; i < (rows.length - 1); i++) {
+                shouldSwitch = false;
+                x = rows[i].getElementsByTagName("td")[columnIndex];
+                y = rows[i + 1].getElementsByTagName("td")[columnIndex];
+
+                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+
+            if (shouldSwitch) {
+                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                switching = true;
+            }
+        }
+    }
+
+    document.getElementById("filterInput").addEventListener("input", function() {
+        let filterValue = this.value.toLowerCase();
+        let table = document.getElementById("dataTable");
+        let rows = table.getElementsByTagName("tr");
+
+        for (let i = 1; i < rows.length; i++) {
+            let rowData = rows[i].getElementsByTagName("td");
+            let showRow = false;
+
+            for (let j = 0; j < rowData.length; j++) {
+                let cellData = rowData[j].innerHTML.toLowerCase();
+
+                if (cellData.indexOf(filterValue) > -1) {
+                    showRow = true;
+                    break;
+                }
+            }
+
+            rows[i].style.display = showRow ? "" : "none";
+        }
+    });
+</script>
 </body>
 </html>
 ```
@@ -784,15 +1803,45 @@
 <h2 align = "center">Задание "24.html"</h2>
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Baloo Tammudu 2', cursive;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
-    <img src="24.jpg" alt="sunflowers" style="border: 10px solid black;">
+    <h2>
+        <b>Что нужно знать, чтобы делать сайты</b>
+    </h2>
+    <ol>
+        <li><b>HTML</b></li>
+        <li><i>CSS</i></li>
+        <li>PHP</li>
+        <li>SQL</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Flash</li>
+        <li>SEO</li>
+    </ol>
+    <h4>PHP и JavaScript</h4>
+    <p>Языки программирования <b>PHP</b> и <b>JavaScript</b> позволяют сделать сайт динамичным, то есть реагирующим на действия пользователя. Например, можно сделать красивую выпадающую менюшку или слайдер</p>
+    <h4>Виды скриптов</h4>
+    <p>Для этого пишутся скрипты (англ. <i>script</i> - «сценарий») - программы, позволяющиее реагировать на действия пользователя. Скрипты бывают двух видов:</p>
+    <ul>
+        <li> те, которые выполняются на сервере, а результат их выполнения приходит в браузер к пользователю уже в готовом виде. Это скрипты, написанные на языке <b>PHP</b>. На нем пишуться <b>CMS-ки</b> – системы управления контентом.</li>
+        <li>те, которые выполняются прямо в браузере пользователя. Это скрипты, написанные на языке <b>JavaScript</b>. Они чаще всего используются для, того чтобы сделать страницу более удобной и красивой.</li>
+    </ul>
 </body>
 </html>
 ```
@@ -801,24 +1850,117 @@
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <style>
-        ul {
-            list-style-type: square;
+        .drag-item {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+            cursor: move;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        
+        .drop-area {
+            display: flex;
+            position:relative;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: start;
+            flex-wrap: wrap;
+            min-height: 260px;
+            width: 36%;
+            background-color: #f7f7f7;
+            border: 2px dashed #aaa;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding: 20px;
+            gap:15px;
+        }
+
+        .drop-area__center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
 </head>
 <body>
-    <p>Пример списка с маркерами в виде квадратов:</p>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
+<h1><i>Drag & Drop</i></h1>
+
+<div style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 15px;">
+    
+    <div class="drag-item" style="background-color: #32913b;" draggable="true">
+        <span>1</span>
+    </div>
+
+    <div class="drag-item" style="background-color: #98df2e;" draggable="true">
+        <span>2</span>
+    </div>
+
+    <div class="drag-item" style="background-color: #0f7816;" draggable="true">
+        <span>3</span>
+    </div>
+
+    <div class="drag-item" style="background-color: #52f31d6c;" draggable="true">
+        <span>4</span>
+    </div>
+
+</div>
+
+<div style="display: flex; flex-direction: column;">
+    <div class="drop-area" id="dropArea">
+        <span class="drop-area__center">Here</span>
+    </div>
+</div>
+
+<script>
+    let dragItem = document.getElementsByClassName('drag-item');
+    for (let i = 0; i < dragItem.length; i++) {
+        dragItem[i].id = `drag${i}`
+        dragItem[i].addEventListener('dragstart', drag);
+    }
+
+    let dropArea = document.getElementById('dropArea');
+
+    dropArea.addEventListener('dragover', allowDrop);
+    dropArea.addEventListener('drop', drop);
+
+    function allowDrop(event) {
+        event.preventDefault();
+    }
+
+    function drag(event) {
+        event.dataTransfer.setData('text', event.target.id);
+    }
+
+    function drop(event) {
+        event.preventDefault();
+        let data = event.dataTransfer.getData('text');
+        let draggedItem = document.getElementById(data);
+
+        if (event.target.className === 'drop-area') {
+            event.target.appendChild(draggedItem);
+        }
+    }
+</script>
 </body>
 </html>
 ```
@@ -827,417 +1969,146 @@
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
     <style>
-        div {
-            width: 200px;
-            height: 100px;
-            background-color: rgb(229, 229, 229);
-        }
-    </style>
-</head>
-<body>
-    <div>Это блок размерами 100 пикселей в высоту и 200 пикселей в ширину"</div>
-</body>
-</html>
-```
-
-<h2 align = "center">Задание "27.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 10%;
+        body {
+            font-family: "Calibri Light",serif;
+            font-weight: bold;
+            background-color:rgb(255, 206, 123);
         }
 
-        table tr:nth-child(even) {
-            background-color: grey;
+        .form {
+            padding: 10px;
         }
 
-        table th, table td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
+        .form_grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 10px;
         }
-    </style>
-</head>
-<body>
-    <table>
-        <thead>
-            <tr>
-                <th>Заголовок</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>5</td>
-            </tr>
-        </tbody>
-    </table>
-</body>
-</html>
-```
 
-<h2 align = "center">Задание "28.html"</h2>
+        .item_grid_1 {
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-        .button {
-            background-color: #cacaca;
-            border: 5px solid ;
-            color: rgb(0, 0, 0);
-            padding: 20px 40px;
-            text-align: center;
-            font-size: 18px;
-            margin: 10px 10px;
-            cursor: pointer;
+        .item_grid_2 {
+            display: grid;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .item_grid_3 {
+            display: grid;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+
+        .item_grid_4 {
+            display: grid;
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+
+        .items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 50px;
+            color: white;
+            overflow: hidden;
             
-            transition: background-color 0.3s;
+
+            background-color: rgba(45, 45, 45, 0.5);
+            padding: 20px;
+            border-radius: 15px;
         }
 
-        .button:hover {
-            background-color: #ff0000;
-        }
-    </style>
-</head>
-<body>
-    <button class="button">BUTTON</button>
-</body>
-</html>
-```
-
-<h2 align = "center">Задание "29.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-        .element {
-            width: 500px;
-            height: 300px;
-            background-image: url('29.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-
+        .btn {
+            width: 20px;
+            height: 20px;
+            padding: 15px;
             text-align: center;
-            font-size: 18px;
-            color: rgb(0, 0, 0);
-            font-family: Arial, sans-serif;
-            margin: 0 auto;
-        }
-    </style>
-</head>
-<body>
-    <div class="element">мопс :D</div>
-</body>
-</html>
-```
-
-<h2 align = "center">Задание "30.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-        form {
-            width: 400px;
-            margin: 0 auto;
+            border-radius: 15px;
+            background-color: rgb(230, 159, 8);
         }
 
-        input[type="text"], textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
+        .btn_1 {
+            background-color: rgba(100, 100, 100, 0.93);
+            width: auto;
+            height: auto;
+            padding: 20px 30px;
+            margin-left: auto; margin-right: auto;
+            font-size: 20px;
         }
-
-        input[type="submit"] {
-            background-color: #888888;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #50c655;
-        }
-
-    </style>
-</head>
-<body>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" placeholder="Enter your name"><br>
-        <label for="message">Message:</label><br>
-        <textarea placeholder="Text"></textarea><br>
         
-        <input type="submit" value="Submit">
-    </form>
-</body>
-</html>
-```
-
-<h2 align = "center">Задание "31.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-        form {
-            width: 400px;
-            margin: 0 auto;
+        @media screen and (max-width: 600px) {
+            .form_flex {
+                display: flex;
+                flex-direction: column;
+            }
         }
-
-        input[type="text"], textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            box-sizing: border-box;
-
-            outline: 2px solid rgb(215, 215, 215);
-        }
-
-        input[type="submit"] {
-            background-color: #888888;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #50c655;
-        }
-
     </style>
 </head>
 <body>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" placeholder="Enter your name"><br>
-        <label for="message">Message:</label><br>
-        <textarea placeholder="Text"></textarea><br>
+<div class="form">
+    <div class="form_grid form_flex">
         
-        <input type="submit" value="Submit">
-    </form>
-</body>
-</html>
-```
-
-<h2 align = "center">Задание "32.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-</head>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f0f0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .container {
-        width: 400px;
-        height: 150px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        padding: 10px;
-    }
-</style>
-<body>
-    <div class="container" style="text-align: center;">
-        <h1>Пример выравнивания по центру</h1>
-        <p>Текст выровнен по центру</p>
-    </div>
-</body>
-</html>
-```
-
-<h2 align = "center">Задание "33.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лаба №3"</title>
-    <style>
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #e5e5e5;
-        }
-
-        .dropdown-content a {
-            color: black;
-            padding: 10px 10px;
-            text-decoration: none;
-            display: block;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-    </style>
-</head>
-<body>
-    <div class="dropdown">
-        <button class="dropbtn">МЕНЮ</button>
-        <div class="dropdown-content">
-            <a href="#">Ссылка №1</a>
-            <a href="#">Ссылка №2</a>
-            <a href="#">Ссылка №3</a>
+        <div class="items item_grid_1" style="background-color: rgba(179, 179, 179, 0.91);">
+            <div style="font-size: 50px;">
+                Оказание любых углуг в кратчайшие сроки!
+            </div>
+                <div class="btn btn_1">Рассчитать стоимость услуги</div>
         </div>
+
+        <div class="items item_grid_2">
+            <div style="font-size: 30px;">
+                Услуга №1
+            </div>
+            <div class="btn">></div>
+        </div>
+
+        <div class="items item_grid_3">
+            <div style="font-size: 30px;">
+                Услуга №2
+            </div>
+            <div class="btn">></div>
+        </div>
+
+        <div class="items item_grid_4">
+            <div style="font-size: 30px;">
+                Услуга №3
+            </div>
+            <div class="btn">></div>
+        </div>
+
     </div>
+</div>
 </body>
 </html>
 ```
 
-<h2 align = "center">Задание "34.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Лабораторная работа №3"</title>
-    <style>
-        .shadow-text {
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-    </style>
-</head>
-<body>
-    <h1 class="shadow-text">Текст с тенью</h1>
-    <p class="shadow-text">Этот текст также имеет тень.</p>
-</body>
-</html>
-```
-
-<h2 align = "center">Задание "35.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>"Лаба №3"</title>
-  <style>
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    .fade-in-element {
-      opacity: 0;
-      animation: fadeIn 4s ease-in-out forwards;
-    }
-  </style>
-</head>
-<body>
-  <div class="fade-in-element">
-    <h1 style="font-family: Arial, Helvetica, sans-serif;">Текст плавно появляется :D</h1>
-  </div>
-</body>
-</html>
-```
-
-<h2 align = "center">Задание "36.html"</h2>
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>"Лаба №3"</title>
-  <style>
-    h1, h2, h3, h4, h5, h6 {
-      font-size: 18px;
-    }
-  </style>
-</head>
-<body>
-  <h1>Заголовок 1</h1>
-  <h2>Заголовок 2</h2>
-  <h3>Заголовок 3</h3>
-  <h4>Заголовок 4</h4>
-  <h5>Заголовок 5</h5>
-  <h6>Заголовок 6</h6>
-</body>
-</html>
-```
 
 <h1 align = "center">Результат:</h1>
 
-<p>По завершении лабораторной работой были выполнены 36 заданий. </p>
+<p>По завершении лабораторной работой были выполнены 26 заданий. </p>
 
 <h1 align = "center">Вывод:</h1>
 <p>Полученные знания о HTML были отработаны на практике при решении поставленных задач.</p>
